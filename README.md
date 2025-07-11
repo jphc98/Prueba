@@ -6,6 +6,7 @@ Activación entorno virtual:
       - python -m venv venv
       - cd venv
       - Scripts\activate
+      - cd ..
       - pip install -r requirements.txt
 Ejecución código:
   Con el entorno virtual activado, se ejecuta "python manage.py runserver" desde la misma carpeta raíz del proyecto. Al ejecutarlo, se desplegará el servidor de desarrollo, y mostrará su dirección para acceder a este en el navegador.
